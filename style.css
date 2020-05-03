@@ -1,0 +1,117 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:calibri, "segoe ui", arial,tahoma,sans-serif;
+}
+body{
+	background-color: #ddd;
+}
+#wrapper{
+	width:780px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#header{
+	background-image: url("header.png");
+	height:auto;
+	width:100%;
+	padding:5px;
+	margin:20px auto;
+	overflow: hidden;
+}
+#header #logo{
+	padding: 5px;
+	width:120px;
+}
+#header #nav{
+	margin-top:5px;
+	width: 100%;
+	border:1px solid silver;
+}
+#header #nav ul{
+	padding: 0;
+	margin:0;
+	list-style-type: none;
+}
+#header #nav ul li a{
+	text-decoration: none;
+	color:white;
+	display: block;
+}
+#header #nav ul li{
+	float: left;
+	padding:10px;
+	text-align: center;
+}
+#header #nav ul li:hover{
+	background-color: orange;
+}
+#header #nav form{
+	float:right;
+	margin:5px;
+	margin-right: 13px;
+}
+#daftar-artikel{
+	width:470px;
+	float: left;
+}
+.artikel{
+	background:#fff;
+	padding:10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.artikel img{
+	float: left;
+	margin-right:10px;
+	width:200px;
+	height:160px;
+}
+.artikel b{
+	color:#616060;
+	font-weight: bold;
+	padding:3px;
+	background-color:#ddd;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.artikel p{
+	margin:10px 0px;
+}
+.artikel a{
+	display: block;
+	text-align: right;
+	color:green;
+	text-decoration: none;
+	cursor: pointer;
+}
+.artikel a:active{
+	color:red;
+}
+#slidebar{
+	width:270px;
+	float: right;
+}
+#slidebar h2{
+	font-size:18px;
+	margin:10px 0px;
+}
+#slidebar p{
+	line-height: 20px;
+	color:#636363;
+}
+#slidebar ul{
+	margin-left: 10px;
+}
+#slidebar ul li a{
+	text-decoration: none;
+	color:#636363;
+}
+#footer{
+	clear: both;
+	margin:20px 0px;
+	text-align: center;
+	background-color:#f0f0f0;
+	padding:5px;
+	color:#555;
+}
